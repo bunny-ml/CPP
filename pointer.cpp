@@ -8,6 +8,8 @@ using namespace std;
 int main(){
 
 
+    // test comment
+
     // variable declaration
     int *mypointer;
     int var = 69;
