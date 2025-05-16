@@ -8,17 +8,21 @@ using namespace std;
 int main(){
 
 
+    int var = 22;
+// printf(var);
+
     // test comment
 
-    // variable declaration
+    // variable declarationu
     int *mypointer;
-    int var = 69;
-
+    // int var = 69;
     mypointer = &var; 
     int var2 = *mypointer; //pointer dereference
 
 printf("Hello Pointer\n");
 printf("mypointer: %p\n", mypointer );
+
+
 
 printf("var: %d\n", var );
 printf("var2: %d\n" , var2 );
