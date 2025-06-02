@@ -10,7 +10,11 @@ int main()
     bool var2 = true;
     cout<< var2 <<endl;
 
-    cout<<"Hello World!" " using cout" << endl;
-    printf("Hello world! ""using printf from C ");
+
+    printf("Hello world! ""using printf from C"    "\n");
+    cout<<"Hello World! " "using cout" << endl;
+    
+
+    return 0;
 
 }
